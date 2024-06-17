@@ -31,7 +31,9 @@ app.use((err,req,res,next)=>{
     return res.status(statusCode).json(err?.message)
 })
 
-
+app.use("/",(req,res)=>{
+    res.send("Welcome to my API")
+})
 
 app.listen(PORT,()=>{
     console.log(`Server Runing on PORT  ${PORT}`);
