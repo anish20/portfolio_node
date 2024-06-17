@@ -1,14 +1,14 @@
 {
-  "name": "insurance_node",
+  "name": "portfolio_node",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "engines": {
-    "node": "20.x"
+    "node": "14.x"
   },
   "scripts": {
     "dev": " export NODE_ENV=development || SET NODE_ENV=development && nodemon server.js",
-    "start": "node server.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
